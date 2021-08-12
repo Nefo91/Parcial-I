@@ -9,9 +9,9 @@ package Vehiculos;
  *
  * @author Dell Ga
  */
-public class AereoAvion extends Aereo {
-    public String bajarTrenDeAterrizaje(){
-  return "Método bajarTrenDeAterrizaje en clase Avion";
- }
+public class Helicoptero extends Aereo{
     
+     public String encenderHelices(){
+  return "Método encenderHelices en clase Helicoptero";
+ }
 }

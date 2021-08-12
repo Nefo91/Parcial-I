@@ -11,10 +11,14 @@ package Vehiculos;
  */
 public class Terrestre extends Vehiculo{
  
- public String nombreTerrestre="";
- 
- public String navegar(){
-  return "Método navegar de clase Terrestre";
- }
+ private String nombreTerrestre="";
+
+    public String getNombreTerrestre() {
+        return nombreTerrestre;
+    }
+
+    public void setNombreTerrestre(String nombreTerrestre) {
+        this.nombreTerrestre = nombreTerrestre;
+    }
 
 }

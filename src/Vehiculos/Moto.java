@@ -9,10 +9,10 @@ package Vehiculos;
  *
  * @author Dell Ga
  */
-public class TerrestreCamioneta extends Terrestre {
+public class Moto extends Terrestre{
     
-         public String encenderMotor(){
-  return "Método encenderMotor en clase TerrestreCamioneta";
+           public String PonerNeutro(){
+  return "Método PonerNeutro en clase Moto";
  }
-}
     
+}
